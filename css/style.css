@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.clr {
+    clear: both;
+}
+body{
+    /* background-color: blue; */
+    background-image: url(/img/dark-wood-background-3.jpg);
+}
+.bigbar {
+    background-color: hsla(17, 9%, 15%, 0.711);
+    padding: 13px;
+    
+}
+.title{
+    text-decoration: none;
+    font-weight: 600;
+    color: teal;
+    font-size: 32px;
+    letter-spacing: 10px;
+}
+.title span{
+    color: blanchedalmond;
+}
+.all, .buttons{
+    display: inline;
+    padding: 15px 0;
+}
+.buttons{
+    text-decoration: none;
+}
+.buttons li{
+    float: right;
+    padding: 15px;
+}
+.buttons li:after {
+    content: "";
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.3s ease;
+    bottom: 25%;
+}
+.buttons li:hover::after {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.buttons a {
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.header{
+    background-image: url(/img/bread.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.homepage h2 {
+    text-align: center;
+    font-size: 70px;
+    color: teal;
+    border: rgba(25, 31, 147, 0.564) dotted 5px ;
+    margin: 13%;
+    letter-spacing: 5px;
+}
+
+.form-container{
+    background-color: rgba(103, 104, 88, 0.564);
+    margin: auto 20%;
+    /* padding: 0px 12px; */
+    position: absolute;
+    text-align: center;
+    color: azure;
+}
+.contain{
+    display: inline-block;
+    padding: 12px;
+}
+
+.about h1{
+    color:hsla(17, 9%, 15%, 0.711);
+    text-align: center;
+}
+section {
+    margin: 10%;
+    overflow: auto; /* Added clearfix */
+}
+.card {
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+.card p {
+    color: antiquewhite;
+}
+.content {
+    text-align: center;
+    color: antiquewhite;
+}
+.halves {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    margin: 150px auto;
+    width: 80%; /* Changed from 20% to 80% for better responsiveness */
+}
+.bla h2 {
+    color: aliceblue;
+    font-size: 50px;
+}
+.bla p {
+    color: aliceblue;
+    font-size: 20px;
+}
+.image img {
+    float: right;
+    max-width: 100%; /* Changed from 500px to 100% for better responsiveness */
+    padding-left: 100px;
+}
+footer {
+    background-color: antiquewhite;
+}
+.footainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.footlinks {
+    margin: 30px 0;
+}
+.footlinks li {
+    float: left;
+    padding: 0.5%;
+}
+.footlinks a {
+    color: rgb(113, 76, 17);
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+}
